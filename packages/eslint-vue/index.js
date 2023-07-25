@@ -19,7 +19,7 @@ const configs = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@idea/eslint-config-ts'
+    '@ideaair/eslint-config-ts'
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',

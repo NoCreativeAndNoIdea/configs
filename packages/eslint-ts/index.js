@@ -1,7 +1,7 @@
 const fs = require('node:fs')
 const { join } = require('node:path')
 const process = require('node:process')
-const basic = require('@idea/eslint-config-basic')
+const basic = require('@ideaair/eslint-config')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
@@ -10,7 +10,7 @@ const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
  */
 const configs = {
   extends: [
-    '@idea/eslint-config-basic',
+    '@ideaair/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],

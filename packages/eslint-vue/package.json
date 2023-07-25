@@ -1,6 +1,6 @@
 {
-  "name": "@idea/eslint-config-vue",
-  "version": "0.0.1",
+  "name": "@ideaair/eslint-config-vue",
+  "version": "0.0.2",
   "description": "A eslint config by vue",
   "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "eslint": ">=8.45.0"
   },
   "dependencies": {
-    "@idea/eslint-config-ts": "workspace:*",
+    "@ideaair/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.15.1"
   }
 }

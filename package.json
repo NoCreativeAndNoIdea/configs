@@ -1,5 +1,5 @@
 {
-  "name": "config-monorepo",
+  "name": "@ideaair/config-monorepo",
   "version": "0.0.1",
   "private": true,
   "description": "",
@@ -9,10 +9,12 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "set-version": "./scripts/set-version.sh",
+    "push": "./scripts/publish.sh"
   },
   "devDependencies": {
-    "@idea/eslint-config": "workspace:*",
+    "@ideaair/eslint-config": "workspace:*",
     "@types/eslint": "^8.44.0",
     "@types/node": "^20.4.2",
     "eslint": "^8.45.0"

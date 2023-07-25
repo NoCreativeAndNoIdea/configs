@@ -3,7 +3,7 @@
  */
 const configs = {
   extends: [
-    '@idea/eslint-config-ts',
+    '@ideaair/eslint-config-ts',
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',

@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@idea/eslint-config-basic"
+    "@ideaair/eslint-config"
   ]
 }
