@@ -1,0 +1,23 @@
+{
+  "name": "@idea/eslint-config-react",
+  "version": "0.0.1",
+  "description": "A eslint config by react",
+  "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
+  "license": "MIT",
+  "keywords": ["eslint-config","react"],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint --fix "
+  },
+  "peerDependencies": {
+    "eslint": ">=8.45.0"
+  },
+  "dependencies": {
+    "@idea/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

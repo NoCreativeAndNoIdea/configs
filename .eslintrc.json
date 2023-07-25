@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "@idea/eslint-config-basic"
+  ],
+  "ignorePatterns": [
+    "fixture"
+  ]
+}

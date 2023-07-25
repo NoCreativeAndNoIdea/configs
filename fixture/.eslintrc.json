@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@idea/eslint-config-basic"
+  ]
+}

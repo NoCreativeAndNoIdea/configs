@@ -1,0 +1,20 @@
+{
+  "name": "config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@idea/eslint-config": "workspace:*",
+    "@types/eslint": "^8.44.0",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.45.0"
+  }
+}
