@@ -1,10 +1,5 @@
 #!/bin/bash
 
-pnpm lint:fix
-git add .
-git commit -m "style: eslint lint"
-git push --all
-
 find $PWD/packages -type d  -maxdepth 1 | while read folder_path; do
   if [ -f "$folder_path/package.json" ]; then
     echo "==========Publish Start=========="
