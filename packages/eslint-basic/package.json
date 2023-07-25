@@ -1,6 +1,6 @@
 {
   "name": "@ideaair/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A basic eslint config , include javascript and json and markdown!",
   "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
   "license": "MIT",
