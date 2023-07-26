@@ -82,7 +82,18 @@ const jsonParser = {
   }
 }
 
+/**
+ * @type {import(eslint).Linter.Config.ConfigOverride}
+ */
+const markParser = {
+  files: ['*.md'],
+  rules: {
+    'no-trailing-spaces': 'off'
+  }
+}
+
 module.exports = {
   jsonParser,
   packageSortKey,
+  markParser
 }

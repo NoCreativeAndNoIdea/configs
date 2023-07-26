@@ -4,8 +4,8 @@
   "description": "A eslint config by react",
   "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
   "license": "MIT",
-  "repository": "https://github.com/NoCreativeAndNoIdea/configs",
   "homepage": "https://github.com/NoCreativeAndNoIdea/configs",
+  "repository": "https://github.com/NoCreativeAndNoIdea/configs",
   "keywords": [
     "eslint-config",
     "react"

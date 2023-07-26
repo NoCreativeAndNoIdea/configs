@@ -10,7 +10,7 @@ const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
  */
 const configs = {
   extends: [
-    '@ideaair/eslint-config-basic',
+    '@ideaair/eslint-config',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -116,7 +116,6 @@ const configs = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     'semi': 'off',
@@ -171,6 +170,7 @@ const configs = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
+    '@typescript-eslint/comma-dangle': 'off'
   }
 }
 

@@ -93,7 +93,7 @@ const configs = {
     'max-lines-per-function': ['error',30],
     'max-nested-callbacks': ['error',2],
     'max-params': ['error', 3],
-    'max-statements': ['error', 3],
+    'max-statements': ['error', 50],
     'new-cap': 'error',
     'no-alert': 'error',
     'no-array-constructor': 'error',

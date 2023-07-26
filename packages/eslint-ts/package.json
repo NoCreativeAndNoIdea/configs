@@ -4,8 +4,8 @@
   "description": "A eslint config by TypeScript",
   "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
   "license": "MIT",
-  "repository": "https://github.com/NoCreativeAndNoIdea/configs",
   "homepage": "https://github.com/NoCreativeAndNoIdea/configs",
+  "repository": "https://github.com/NoCreativeAndNoIdea/configs",
   "keywords": [
     "eslint-config"
   ],
@@ -21,5 +21,9 @@
     "@ideaair/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
   }
 }
