@@ -6,8 +6,6 @@ Config monorepo of code style and project style.
 * Editorconfig
 * GitHooks
 
-[toc]
-
 ## Usage
 
 ### Code style
@@ -179,3 +177,22 @@ Configs
     pnpm pkg set scripts.commitlint="commitlint --edit" 
     pnpm husky add .husky/commit-msg 'npm run commitlint ${1}'
     ```
+
+#### Changelog
+
+Install
+```shell
+pnpm add -D conventional-changelog-cli
+```
+
+Usage
+```shell
+pnpm conventional-changelog -p angular -i CHANGELOG.md -s
+```
+or set pkg command
+```shell
+pnpm pkg set scripts.changelog="pnpm conventional-changelog -p angular -i CHANGELOG.md -s"
+pnpm changelog
+```
+
+
