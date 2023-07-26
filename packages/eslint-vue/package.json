@@ -1,6 +1,6 @@
 {
   "name": "@ideaair/eslint-config-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A eslint config by vue",
   "author": "season <997432833lixuan@gmail.com> (https://github.com/muziyan)",
   "license": "MIT",
